@@ -2,6 +2,7 @@
   <div>
     <el-button mb-2 @click="toggle">Switch Language</el-button>
     <br />
+    <p>李勇哈哈哈</p>
 
     <el-config-provider :locale="locale">
       <el-table mb-1 :data="[]" />
